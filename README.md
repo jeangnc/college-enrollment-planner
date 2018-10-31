@@ -5,11 +5,14 @@ Helps students to plan their semester's enrollment by showing the completed and 
 
 ### Running locally
 
-To start a local development server, just run on your console:
+To start a local development server:
+
+1. Run on your console:
 
 ```shell
 $ npm run server
 ```
 
+2. Open on your browser: http://localhost:3000.
 
 ### Deploying to Heroku
