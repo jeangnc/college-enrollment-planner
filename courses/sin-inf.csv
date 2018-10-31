@@ -1,0 +1,46 @@
+Fase,Codigo,Materia,Hora aula,Equivalencia,Pre-requisito
+1,CAD5240,Aspectos Comportamentais do Empreendedor,36,,
+1,EGC5015,Teoria Geral de Sistemas,72,INE5604,
+1,INE5601,Fundamentos Matemáticos da Informática,72,,
+1,INE5602,Introdução à Informática,72,,
+1,INE5603,Introdução à Programação Orientada a Objetos,108,"INE5382, INE5402",
+2,CAD5146,Marketing Pessoal em Informática,36,,CAD5240
+2,CAD7001,Introdução a Administração,72,CAD5103,
+2,INE5605,Desenvolvimento de Sistemas Orientados a Objetos I,108,"INE5383, INE5404",INE5603
+2,INE5606,Probabilidade e Estatística,72,,INE5601
+2,INE5607,Organização e Arquitetura de Computadores,72,,"INE5602, INE5603"
+3,CAD5213,"Organização, Sistemas e Métodos",72,CAD7213,CAD7001
+3,EGC5009,Geração de Idéias e Criatividade em Informática,54,INE5610,
+3,EPS5211,Programação Econômica e Financeira,54,,
+3,INE5609,Estruturas de Dados,108,"INE5384, INE5408",INE5605
+3,INE5649,Técnicas Estatísticas de Predição,72,INE5618,INE5606
+4,INE5608,Análise e Projeto de Sistemas,72,INE5417,INE5609
+4,INE5611,Sistemas Operacionais,72,,"INE5607, INE5609"
+4,INE5612,Desenvolvimento de Sistemas Orientados a Objetos II,72,,INE5609
+4,INE5613,Bancos de Dados I,72,INE5423,INE5609
+4,INE5659,"Gestão Estratégica de Tecnologias, Informação e Comunicação",72,,
+5,INE5614,Engenharia de Software,72,INE5419,INE5608
+5,INE5615,Redes de Computadores,72,,INE5611
+5,INE5616,Bancos de Dados II,72,,INE5613
+5,INE5645,Programação Paralela e Distribuída,72,,INE5611
+5,INE5646,Programação para Web,72,,INE5612
+6,INE5600,Bancos de Dados III,36,INE5623,INE5616
+6,INE5619,Administração e Gerência de Redes de Computadores,72,,INE5615
+6,INE5621,Informática e Sociedade,36,,
+6,INE5622,Introdução a Compiladores,72,,INE5609
+6,INE5624,Engenharia de Usabilidade,72,,"INE5612, INE5614"
+6,INE5625,Computação Distribuída,72,,"INE5615, INE5645"
+7,INE5617,Gerência de Projetos,72,INE5427,INE5614
+7,INE5633,Sistemas Inteligentes,72,,INE5612
+7,INE5638,Introdução a Projetos,18,,INE5614
+7,INE5643,Data Warehouse,72,,INE5616
+7,INE5680,Segurança da Informação e de Redes,72,INE5630,INE5625
+7,ZZT1606,Optativa I,72,,
+8,EGC5010,Plano de Negócios em Informática,36,INE5629,"CAD5240, CAD7001, EGC5009"
+8,INE5631,Projetos I,144,,"INE5617, INE5638"
+8,INE5644,Data Mining,72,,"INE5606, INE5633, INE5643"
+8,ZZT1607,Optativa II,72,,
+8,ZZT1657,Optativa III,36,,
+9,INE5660,Projetos II,234,,INE5631
+9,ZZT1609,Optativa IV,72,,
+9,ZZT1659,Optativa V,36,,
