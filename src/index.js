@@ -1,11 +1,8 @@
-import _ from 'lodash';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-function component() {
-  let element = document.createElement('div');
+const App = () => (
+  <div class="app">Hello World!</div>
+)
 
-  element.innerHTML = _.join(['Hello', 'Jean'], ' ');
-
-  return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(<App />, document.querySelector('#container'));
