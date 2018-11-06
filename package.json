@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpack.config.js",
-    "watch": "webpack --watch --config ./webpack.config.js",
     "build": "webpack --config ./webpack.config.js",
     "server": "nodemon ./server.js"
   },
