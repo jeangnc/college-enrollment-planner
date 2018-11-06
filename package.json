@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --open --config ./webpack.config.js",
+    "start": "webpack-dev-server --open --port 8000 --config ./webpack.config.js",
     "build": "webpack --config ./webpack.config.js",
     "server": "nodemon ./server.js"
   },
