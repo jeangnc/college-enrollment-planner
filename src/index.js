@@ -1,8 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import reducer from './reducers'
+import App from './app'
+import './app.css';
 
-const App = () => (
-  <div class="app">Hello World!</div>
-)
+function renderApp(initialState) {
+  const store = createStore(reducer, initialState)
 
-ReactDOM.render(<App />, document.querySelector('#container'));
+  window.store = store;
+
+  render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    document.querySelector('#container')
+  );
+}
+
+fetch('/course/1').then(response => {
+  response.json().then(json => {
+    renderApp(json);
+  });
+});
