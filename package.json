@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --open --port 8000 --config ./webpack.config.js",
+    "start": "webpack-dev-server --port 8000 --config ./webpack.config.js --open --hot --inline",
     "build": "webpack --config ./webpack.config.js",
-    "server": "nodemon ./server.js"
+    "server": "npm run build && nodemon ./server.js"
   },
   "author": "",
   "license": "ISC",
